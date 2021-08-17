@@ -98,6 +98,8 @@ function ternRead(n) {
   
     var decimal = s.split('.');
     s = decimal[0];
+
+    if ( decimal[1] && decimal[1].length > 5 ) decimal = n.toFixed(5).split('.');
   
     var format = '';
   
