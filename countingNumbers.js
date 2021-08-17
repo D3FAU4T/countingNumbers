@@ -178,7 +178,7 @@ function readNum(array, j, english) {
   
 function numberToEnglish(n) {
     
-    var array = {quadrillion:"", trillion:"", billion:"", million:"", thousand:"", hundred:"", tenth:"", unity:"", tern:""}; // array = [thousands, hundreds, tenths, unit, decimal]
+    var array = {quadrillion:"", trillion:"", billion:"", million:"", thousand:"", hundred:"", tenth:"", unity:"", tern:""}; 
     var j = 0;
     var english = '';
     
